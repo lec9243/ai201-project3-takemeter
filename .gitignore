@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+takemeter_distilbert_model/
+data/pullpush/
+data/raw_pullpush_comments.jsonl
+test_predictions.csv
+*.mp4
+*.mov
+*.webm
+*.mkv
+.DS_Store

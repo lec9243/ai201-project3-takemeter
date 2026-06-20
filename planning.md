@@ -114,4 +114,4 @@ After fine-tuning, I will give the wrong predictions to an AI tool and ask it to
 
 ## Stretch Feature Update
 
-I am adding two stretch features after the required pipeline: an error pattern analysis and a deployed local interface. The error analysis will focus on whether one label pair dominates the mistakes, especially `hot_take` being predicted as `analysis`. The interface will be a simple local web app that accepts a new r/nba comment and displays the fine-tuned model's predicted label and confidence.
+I am adding two stretch features after the required pipeline: error pattern analysis and a deployed local interface. The error analysis will focus on whether one label pair or one post type dominates the mistakes, especially reactions being predicted as `analysis` or `hot_take`. The interface will be a simple local web page that accepts a new r/nba comment and displays the fine-tuned model's predicted label, confidence, and probability breakdown.
